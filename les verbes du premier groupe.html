@@ -29,7 +29,7 @@ QuestionsArray[12]=["Nous nous .....  (cacher) dans la maison. = ","cachons "];
 QuestionsArray[13]=["Je ......  (sauter) dans ma chambre sur mon canapé. = ","saute "];
 QuestionsArray[14]=["Tu ......  (donner) tes doudous. = ","donnes "];
 QuestionsArray[15]=["Nous ......  (fermer) la porte. = ","fermons "];
-QuestionsArray[16]=["je .........(Penser) = ","pèse"];
+QuestionsArray[16]=["je .........(peser) = ","pèse"];
 QuestionsArray[17]=["Elle.....(essayer) cette robe. = ","essaie"];
 QuestionsArray[18]=["nous....(acheter)une nouvelle voiture. = ","achetons"];
 QuestionsArray[19]=["Ils s'appe...ent Marc, Sophie et Elise. = ","l"];
@@ -231,6 +231,18 @@ a.calendar:hover   { color: #ffffff; text-underline: Off; text-decoration: none;
 			 text-align: center;
 		 }
 
+.auto-style7 {
+	font-size: medium;
+	color: #000000;
+}
+.auto-style8 {
+	font-size: medium;
+}
+.auto-style10 {
+	text-align: right;
+	direction: rtl;
+}
+
 -->
 </style>
 
@@ -244,8 +256,6 @@ a.calendar:hover   { color: #ffffff; text-underline: Off; text-decoration: none;
 
 <p class="auto-style2">اكتب التصريف الصحيح للفعل</p>
 
-<center class="style2">
-
 <table x-use-null-cells style="x-cell-content-align: top; float: aligncenter; border-spacing: 0px;" cellspacing=0><col><col style="width: 0px;">
 <tr style="x-cell-content-align: top;" valign=top>
 <td style="border: none; padding: 2px;">
@@ -254,9 +264,12 @@ a.calendar:hover   { color: #ffffff; text-underline: Off; text-decoration: none;
 <p class="style5">
 <input tabindex=0 name=StudentName type=text style=width:400px; class="style1"><span class="auto-style4">اسمك</span> </p>
 	</td></tr></table>
-<br class="style1"><br class="style1">
+	<div class="auto-style10">
+		<span class="auto-style8">انسخ الحرف&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp; à â 
+		ç è é ê ë î ï ô ù û&nbsp;&nbsp; </span>
+<br class="auto-style7"><br class="auto-style7">
 
-</center>
+	</div>
 <div id=txtQuestions style="margin-left:15px; color: #000000;" class="style2" visible="false">
 </div><br class="style2"><br class="style4">
 
